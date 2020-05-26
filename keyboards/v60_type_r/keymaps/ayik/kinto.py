@@ -214,7 +214,7 @@ define_keymap(re.compile("Sublime_text", re.IGNORECASE), {
     # K("Super-Shift-down"): K("M-Shift-down"),   # multi-cursor down
     # K("C-PAGE_DOWN"): pass_through_key,         # cancel next_view
     # K("C-PAGE_UP"): pass_through_key,           # cancel prev_view
-    K("Super-d"): K("Ctrl-d"),                          # expand selection to word
+    K("Super-d"): K("Ctrl-d"),                    # expand selection to word
     # K("C-M-right"): K("C-PAGE_DOWN"),           # next_view
     # K("C-M-left"): K("C-PAGE_UP"),              # prev_view
     # K("insert"): pass_through_key,              # cancel toggle_overwrite
@@ -265,45 +265,13 @@ define_keymap(re.compile("Sublime_text", re.IGNORECASE), {
 
 define_keymap(re.compile(term_str, re.IGNORECASE), {
     # Converts Cmd to use Ctrl-Shift
-    K("RC-Tab"): K("RC-F13"),
-    K("RC-Shift-Tab"): K("RC-Shift-F13"),
-    K("RC-V"): K("C-Shift-V"),
-    K("RC-MINUS"): K("C-Shift-MINUS"),
-    K("RC-EQUAL"): K("C-Shift-EQUAL"),
-    K("RC-BACKSPACE"): K("C-Shift-BACKSPACE"),
-    K("RC-W"): K("C-Shift-W"),
-    K("RC-E"): K("C-Shift-E"),
-    K("RC-R"): K("C-Shift-R"),
-    K("RC-T"): K("C-Shift-t"),
-    K("RC-Y"): K("C-Shift-Y"),
-    K("RC-U"): K("C-Shift-U"),
-    K("RC-I"): K("C-Shift-I"),
-    K("RC-O"): K("C-Shift-O"),
-    K("RC-P"): K("C-Shift-P"),
-    K("RC-A"): K("C-Shift-A"),
-    K("RC-S"): K("C-Shift-S"),
-    K("RC-D"): K("C-Shift-D"),
-    K("RC-F"): K("C-Shift-F"),
-    K("RC-G"): K("C-Shift-G"),
-    K("RC-H"): K("C-Shift-H"),
-    K("RC-J"): K("C-Shift-J"),
-    K("RC-K"): K("C-Shift-K"),
-    K("RC-L"): K("C-Shift-L"),
-    K("RC-SEMICOLON"): K("C-Shift-SEMICOLON"),
-    K("RC-APOSTROPHE"): K("C-Shift-APOSTROPHE"),
-    K("RC-GRAVE"): K("C-Shift-GRAVE"),
-    K("RC-BACKSLASH"): K("C-Shift-BACKSLASH"),
-    K("RC-Z"): K("C-Shift-Z"),
-    K("RC-X"): K("C-Shift-X"),
-    K("RC-C"): K("C-Shift-C"),
-    K("RC-V"): K("C-Shift-V"),
-    K("RC-B"): K("C-Shift-B"),
-    K("RC-N"): K("C-Shift-N"),
-    K("RC-M"): K("C-Shift-M"),
-    K("RC-COMMA"): K("C-Shift-COMMA"),
-    K("RC-DOT"): K("C-Shift-DOT"),
-    K("RC-SLASH"): K("C-Shift-SLASH"),
-    K("RC-KPASTERISK"): K("C-Shift-KPASTERISK"),
+    K("Super-Shift-MINUS"): K("C-Shift-MINUS"),
+    K("Super-Shift-EQUAL"): K("C-Shift-EQUAL"),
+    K("Super-W"): K("C-Shift-W"),
+    K("Super-T"): K("C-Shift-t"),
+    K("Super-C"): K("C-Shift-C"),
+    K("Super-V"): K("C-Shift-V"),
+    K("Super-N"): K("C-Shift-N"),
 }, "terminals")
 
 # Keybindings for Browsers
